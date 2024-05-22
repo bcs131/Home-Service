@@ -3,6 +3,7 @@ import React from 'react'
 import HomeScreen from '../Screens/HomeScreen/HomeScreen';
 import { createStackNavigator } from '@react-navigation/stack';
 import BusinessListByCategoryScreen from '../Screens/BusinessListByCategoryScreen/BusinessListByCategoryScreen';
+import BusinessDetailScreen from '../Screens/BusinessDetailScreen/BusinessDetailScreen';
 
 const Stack = createStackNavigator();
 export default function HomeNavigation() {
@@ -12,6 +13,7 @@ export default function HomeNavigation() {
     }}>
         <Stack.Screen name='home' component={HomeScreen} />
         <Stack.Screen name='business-list' component={BusinessListByCategoryScreen}/>
+        <Stack.Screen name='business-detail' component={BusinessDetailScreen}/>
     </Stack.Navigator>
   )
 }
