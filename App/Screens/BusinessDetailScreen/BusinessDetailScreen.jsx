@@ -51,7 +51,7 @@ export default function BusinessDetailScreen() {
           <TouchableOpacity style={styles.MsgBtn}
           onPress={()=>setShowModal(true)}>
             <Text style={{textAlign:'center', fontFamily:'outfit-medium',fontSize:14,color:Colors.PRIMARY}}
-            >Booking Now</Text>
+            >Book Now</Text>
           </TouchableOpacity>
         </View>
         {/* Show Modal of Booking  */}
